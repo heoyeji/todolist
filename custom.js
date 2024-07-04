@@ -11,7 +11,7 @@ function addTask() {
   //   console.log("클릭");
   //   let taskContent = user.value;
   let taskContent = {
-    id: randomId(), //고유번호
+    id: randomId(), //고유번호 (함수도 호출할 수 있음)
     taskContent: user.value, // 입력한 내용
     isComplete: false, // false 미완성(진행중), true 끝남
   };
