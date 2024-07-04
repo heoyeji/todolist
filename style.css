@@ -148,7 +148,7 @@ button {
   border-radius: 5px;
   position: absolute;
   bottom: 20px;
-  left: 700px;
+  left: 5%;
 }
 .container2 {
   width: 300px;
@@ -157,7 +157,8 @@ button {
   border-radius: 5px;
   position: absolute;
   bottom: 20px;
-  left: 1050px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .container3 {
   width: 300px;
@@ -166,7 +167,7 @@ button {
   border-radius: 5px;
   position: absolute;
   bottom: 20px;
-  right: 700px;
+  right: 5%;
 }
 textarea {
   width: 100%;
